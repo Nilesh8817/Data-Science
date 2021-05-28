@@ -6,7 +6,7 @@ Wrongly denying a genuine claim could lead to lawsuits against the company and a
 
 ## Dataset Description
 
-A zipped file containing train, test and sample submission files are given. The training dataset consists of data corresponding to 52310 customers and the test dataset consists of 22421 customers. Following are the features of the dataset
+A file consists of data corresponding to 50552 columns which are 50552 customers and of 12 Features (Columns). Following are the features of the dataset
 
    - Target: Claim Status (Claim)
 
