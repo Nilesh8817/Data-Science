@@ -36,7 +36,7 @@ A zipped file containing train, test and sample submission files are given. The 
 
 Presentation file:<br>
 
-[Travel Insurance](Travel Insurance Claim.ipynb)
+[Travel Insurance claim](Travel_Insurance_Claim.ipynb)
 
 ## Evaluation Metric
 
