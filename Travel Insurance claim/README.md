@@ -4,6 +4,8 @@ SafeTravel Inc. is one of the world's largest insurance companies specializing i
 
 Wrongly denying a genuine claim could lead to lawsuits against the company and approving the wrong claim would lead to a loss. Automatically predicting the claims could lead to a lot of benefits and solve some other supplementary problems too. As a team of data scientists consulting for SafeTravel Inc, you are now responsible for meeting their business outcomes.
 
+This project entails creating a model that can predict for whether a customer can claim for Travel Insurance or not
+
 ## Dataset Description
 
 A file consists of data corresponding to 50552 columns which are 50552 customers and of 12 Features (Columns). Following are the features of the dataset
