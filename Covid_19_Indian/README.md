@@ -31,7 +31,7 @@ Q6. Which 3 states have lowest total death cases ?
 
 Q7. Plot multi linegraph that shows distribution of per day confirmed cases, death cases and cured cases in India in 2020.
 
-Q8. Q7. Plot multi linegraph that shows distribution of per day confirmed cases, death cases and cured cases in Maharashtra in 2020.
+Q8. Plot multi linegraph that shows distribution of per day confirmed cases, death cases and cured cases in Maharashtra in 2020.
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
