@@ -10,6 +10,8 @@ A file consists of data corresponding to 50552 columns which are 50552 customers
 
    - Target: Claim Status (Claim)
 
+   - Gender : 1 - Male, 0 - Female (Gender)
+
    - Name of agency (Agency)
 
    - Type of travel insurance agencies (Agency.Type)
