@@ -62,6 +62,7 @@ Exited : Churn or not
 <img src="Figures/Fig10.png">
 <img src="Figures/Fig11.png">
 
+<p>There is negative skewnwss in Creditscore & balance columns, will hansel by applying square.</p>
 ## Bivariate Analysis against the traget
 
 <img src="Figures/Fig12.png">
