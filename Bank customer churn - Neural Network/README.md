@@ -31,29 +31,6 @@ Balance : Money
 
 NumOfProducts : Number of bank products used
 
------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-## EDA and Preprocessing
-
-### Null values
-<img src="plots/null.png">
-## Analyze Categorical columns
-
-## Analyze Numerical columns
-
-## Bivariate Analysis against the traget
-
-## Target column
-
-<p> Since the target column is  imbalanced, used <b>RandomUnderSampler</b> & <b>RandomOverSampler</b> </p>
-
-## Neural Network
-
-<p> Standardization using <b>StandardScaler</b> </p>
-
-## RandomUnderSampler
-
-## RandomOverSampler
 HasCrCard : The state of having credit card or not
 
 IsActiveMember : The state of active membership
@@ -62,3 +39,52 @@ EstimatedSalary : Customer's estimated salary
 
 Exited : Churn or not
 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## EDA and Preprocessing
+
+### Null values
+<img src="Figures/Fig1.png">
+
+## Analyze Categorical columns
+
+<img src="Figures/Fig2.png">
+<img src="Figures/Fig3.png">
+<img src="Figures/Fig4.png">
+<img src="Figures/Fig5.png">
+
+## Analyze Numerical columns
+
+<img src="Figures/Fig6.png">
+<img src="Figures/Fig7.png">
+<img src="Figures/Fig8.png">
+<img src="Figures/Fig9.png">
+<img src="Figures/Fig10.png">
+<img src="Figures/Fig11.png">
+
+## Bivariate Analysis against the traget
+
+<img src="Figures/Fig12.png">
+<img src="Figures/Fig13.png">
+<img src="Figures/Fig14.png">
+<img src="Figures/Fig15.png">
+<img src="Figures/Fig16.png">
+<img src="Figures/Fig17.png">
+
+## Target column
+
+<img src="Figures/Fig18.png">
+<p> Since the target column is  imbalanced, used <b>RandomUnderSampler</b> & <b>RandomOverSampler</b> </p>
+
+## Neural Network
+
+<p> Standardization using <b>StandardScaler</b> </p>
+<img src="Figures/Fig19.png">
+
+## RandomUnderSampler
+
+<img src="Figures/Fig20.png">
+
+## RandomOverSampler
+
+<img src="Figures/Fig21.png">
