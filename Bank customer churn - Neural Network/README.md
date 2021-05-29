@@ -31,6 +31,29 @@ Balance : Money
 
 NumOfProducts : Number of bank products used
 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## EDA and Preprocessing
+
+### Null values
+<img src="plots/null.png">
+## Analyze Categorical columns
+
+## Analyze Numerical columns
+
+## Bivariate Analysis against the traget
+
+## Target column
+
+<p> Since the target column is  imbalanced, used <b>RandomUnderSampler</b> & <b>RandomOverSampler</b> </p>
+
+## Neural Network
+
+<p> Standardization using <b>StandardScaler</b> </p>
+
+## RandomUnderSampler
+
+## RandomOverSampler
 HasCrCard : The state of having credit card or not
 
 IsActiveMember : The state of active membership
