@@ -1,10 +1,9 @@
-## Problem Description
+# Insurance Claim Status Prediction
 
-SafeTravel Inc. is one of the world's largest insurance companies specializing in travel insurance. During travel, there are a lot of risk factors - loss of baggage, airline cancellations, health issues etc. The potential customers are travellers who want to insure themselves against travel-related risks. They have different product offerings like 1-way travel insurance, 2-way insurance, insurance against cancellations and so on. They receive thousands of claims spread across different products.
+<p>Insurance companies take risks over customers. Risk management is a very important aspect of the insurance industry. Insurers consider every quantifiable factor to develop profiles of high and low insurance risks. Insurers collect vast amounts of information about policyholders and analyse the data.
+As a Data scientist in an insurance company.</p>
 
-Wrongly denying a genuine claim could lead to lawsuits against the company and approving the wrong claim would lead to a loss. Automatically predicting the claims could lead to a lot of benefits and solve some other supplementary problems too. As a team of data scientists consulting for SafeTravel Inc, you are now responsible for meeting their business outcomes.
-
-This project entails creating a model that can predict for whether a customer can claim for Travel Insurance or not
+This project entails creating a model that can predict for whether a customer can claim for Insurance or not.
 
 ## Dataset Description
 
@@ -34,10 +33,7 @@ A file consists of data corresponding to 50552 columns which are 50552 customers
 
    - The identification record of every observation (ID)
 
-   
-
-   
-
+ 
 Presentation file:<br>
 
 [Travel Insurance claim](Travel_Insurance_Claim.ipynb)
@@ -45,3 +41,33 @@ Presentation file:<br>
 ## Evaluation Metric
 
 The evaluation metric for this task will be `precision_score`. Read up about it more [here](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.precision_score.html).
+
+________________________________________________________________________________________________________________________________________________________________
+
+## EDA and Preprocessing
+
+### Null values in %
+
+<img src="plots/null.png">
+
+<p> Dropped Gender and ID column </p>
+
+## Analyze Categorical columns
+
+
+<p> Dropped Dristribution channel (Highly imbalanced) and Destinations (Too many classes) </p>
+
+## Analyze Numerical columns
+
+<p> Replaced duration values < 0 with average duration of their respective destination </p>   
+
+## Bivariate Analysis against the traget
+
+## Baseline model
+
+<p> Decision Tree Classifier</p>
+
+<img src="plots/report1.png">
+
+### Recall for class 1 is 0.71, that means out of all the claims which should be approved, 71% is predicted accurately.
+
