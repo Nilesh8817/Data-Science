@@ -44,32 +44,50 @@ ________________________________________________________________________________
 
 ### Null values in %
 
-<img src="plots/null.png">
+<img src="Figures/Fig1.png">
 
 <p> Dropped Gender and ID column </p>
 
 ## Analyze Categorical columns
 
+<img src="Figures/Fig2.png">
+<img src="Figures/Fig3.png">
+<img src="Figures/Fig4.png">
+<img src="Figures/Fig5.png">
+<img src="Figures/Fig6.png">
 
 <p> Dropped Dristribution channel (Highly imbalanced) and Destinations (Too many classes) </p>
 
 ## Analyze Numerical columns
 
+<img src="Figures/Fig7.png">
+<img src="Figures/Fig8.png">
+<img src="Figures/Fig9.png">
+<img src="Figures/Fig10.png">
+
 <p> Replaced duration values < 0 with average duration of their respective destination </p>   
 
 ## Bivariate Analysis against the traget
 
+   <img src="Figures/Fig11.png">
+   <img src="Figures/Fig12.png">
+   <img src="Figures/Fig13.png">
+   <img src="Figures/Fig14.png">
+   
 ## Baseline model
 
 <p> Decision Tree Classifier</p>
+<img src="Figures/Fig15.png">
 
 <p> Random Forest</p>
-
-<img src="plots/report1.png">
+<img src="Figures/Fig16.png">
 
 ## Final Model
 <p> Handel Skweness </p>
 <p> Standardization using StandardScaler </p>
 <p> Since the target is highly imbalanced, used RandomOverSampler </p>
 
-
+<img src="Figures/Fig17.png">
+<img src="Figures/Fig18.png">
+<img src="Figures/Fig19.png">
+<img src="Figures/Fig20.png">
