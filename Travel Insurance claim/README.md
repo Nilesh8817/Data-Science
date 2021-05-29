@@ -38,10 +38,6 @@ Presentation file:<br>
 
 [Travel Insurance claim](Travel_Insurance_Claim.ipynb)
 
-## Evaluation Metric
-
-The evaluation metric for this task will be `precision_score`. Read up about it more [here](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.precision_score.html).
-
 ________________________________________________________________________________________________________________________________________________________________
 
 ## EDA and Preprocessing
@@ -67,7 +63,13 @@ ________________________________________________________________________________
 
 <p> Decision Tree Classifier</p>
 
+<p> Random Forest</p>
+
 <img src="plots/report1.png">
 
-### Recall for class 1 is 0.71, that means out of all the claims which should be approved, 71% is predicted accurately.
+## Final Model
+<p> Handel Skweness </p>
+<p> Standardization using StandardScaler </p>
+<p> Since the target is highly imbalanced, used RandomOverSampler </p>
+
 
