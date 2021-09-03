@@ -5,6 +5,8 @@ This notebook performs some analysis on India's Covid-19 Situation.
 ### What is Corona Virus(COVID-19)?
 Coronavirus is a family of viruses that can cause illness, which can vary from common cold and cough to sometimes more severe disease. SARS-CoV-2 (n-coronavirus) is the new virus of the coronavirus family, which first discovered in 2019, which has not been identified in humans before. It is a contiguous virus which started from Wuhan in December 2019. Which later declared as Pandemic by WHO due to high rate spreads throughout the world. Currently (on date 27 March 2020), this leads to a total of 24K+ Deaths across the globe, including 16K+ deaths alone in Europe.Pandemic is spreading all over the world; it becomes more important to understand about this spread. This NoteBook is an effort to analyze the cumulative data of confirmed, deaths, and recovered cases over time. In this notebook, the main focus is to analyze the spread trend of this virus all over the india.
 
+![image](https://user-images.githubusercontent.com/81873172/131951947-21aef3be-78e9-428f-b72e-b0de1a3704a5.png)
+
 ### History of COVID-19 in India
 On January 30, India reported its first case of COVID-19 in Kerala, which rose to three cases by February 3; all were students who had returned from Wuhan, China.No significant rise in cases was seen in the rest of February.
 
@@ -17,21 +19,21 @@ Experts suggest the number of infections could be much higher as India's testing
 Source: Wikipedia
 
 ## Task Performed.
-Q1. Check unique state/UT names, fix state names appearing twice or more due to spelling mistakes
+Check unique state/UT names, fix state names appearing twice or more due to spelling mistakes
 
-Q2. Calculate per day average confirmed cases for all states/UT.
+Calculate per day average confirmed cases for all states/UT.
 
-Q3. Plot a linegraph that shows distribution of per day confirmed cases in Maharashtra in 2020.
+Plot a linegraph that shows distribution of per day confirmed cases in Maharashtra in 2020.
 
-Q4. Plot a pie-chart displaying percentage of total cured and total death cases in Maharashtra.
+Plot a pie-chart displaying percentage of total cured and total death cases in Maharashtra.
 
-Q5. Plot a barplot showing top-5 states with maximum number of total confirmed cases.
+Plot a barplot showing top-5 states with maximum number of total confirmed cases.
 
-Q6. Which 3 states have lowest total death cases ?
+Which 3 states have lowest total death cases ?
 
-Q7. Plot multi linegraph that shows distribution of per day confirmed cases, death cases and cured cases in India in 2020.
+Plot multi linegraph that shows distribution of per day confirmed cases, death cases and cured cases in India in 2020.
 
-Q8. Plot multi linegraph that shows distribution of per day confirmed cases, death cases and cured cases in Maharashtra in 2020.
+Plot multi linegraph that shows distribution of per day confirmed cases, death cases and cured cases in Maharashtra in 2020.
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -39,8 +41,15 @@ Q8. Plot multi linegraph that shows distribution of per day confirmed cases, dea
 ## Check the Null values.
 ![Null_value](https://user-images.githubusercontent.com/81873172/119931435-06387280-bf9f-11eb-8b24-0c3a4b7a5c47.jpg)
 
+## Confirm cases, Death cases & Cured cases in Maharashtra.
+![Confirm, death, cured - Maharashtra](https://user-images.githubusercontent.com/81873172/119931525-2a944f00-bf9f-11eb-928f-e66f25ee0c7f.jpg)
+
+## Data count per states.
+![download](https://user-images.githubusercontent.com/81873172/131951669-7fa13302-7e1a-41ab-8d30-18f110ab925a.png)
+
 ## Top 5 states with Maiximum number of Confirmed cases.
-![Top 5 states](https://user-images.githubusercontent.com/81873172/119931450-0cc6ea00-bf9f-11eb-81ed-9be7484881f0.jpg)
+![Top 5 states](https://user-images.githubusercontent.com/81873172/119931450-0cc6ea00-bf9f-11eb-81ed-9![Uploading download.png…]()
+be7484881f0.jpg)
 
 ## Total cured cases & Total death cases.
 ![Total_cured_death](https://user-images.githubusercontent.com/81873172/119931487-19e3d900-bf9f-11eb-8609-ea59ce3f3309.jpg)
@@ -50,8 +59,4 @@ Q8. Plot multi linegraph that shows distribution of per day confirmed cases, dea
 
 ## Confirm cases, Death cases & Cured cases in Indian.
 ![Confirm, death, cured - indian](https://user-images.githubusercontent.com/81873172/119931513-25cf9b00-bf9f-11eb-9052-2b4a5991eceb.jpg)
-
-## Confirm cases, Death cases & Cured cases in Maharashtra.
-![Confirm, death, cured - Maharashtra](https://user-images.githubusercontent.com/81873172/119931525-2a944f00-bf9f-11eb-928f-e66f25ee0c7f.jpg)
-
 
