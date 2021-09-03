@@ -90,3 +90,6 @@ Applying Tokenization on training data.
  
 <p><b>In this Project I have perform almost all the model: With Neural Network we get accuracy score of 80% we perform RECURRENT NEURAL NETWORK (RNN), LONG SHORT-TERM MEMORY (LSTM), GATED RECURRENT UNITS (GRU) with single, multiple and Bidirectional Layer as well to improve the score & we get the Best score with Bidirectional RECURRENT NEURAL NETWORK (RNN) with Multiple layer of 85% of recall as well as 85% of accuracy.</b></p>
 
+Presentation file:<br>
+
+[Food Review](Sentiment_Analysis_on_Food_review.ipynb)
