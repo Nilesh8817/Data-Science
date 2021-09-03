@@ -89,3 +89,4 @@ Exited : Churn or not
 ## RandomOverSampler
 
 <img src="Figures/Fig21.png">
+
